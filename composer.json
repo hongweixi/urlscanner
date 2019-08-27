@@ -1,0 +1,21 @@
+{
+    "name": "hongwei/urlscanner1",
+    "keywords": ["url", "scanner", "csv"],
+    "description": "desc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hongwei",
+            "email": "1014573565@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HongWei\\UrlScanner\\": "src/"
+        }
+    }
+}
